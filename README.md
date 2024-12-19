@@ -6,6 +6,7 @@ Esta aplicación de escritorio esta disponible como proyecto python en GitHub, p
 Si descargas el proyecto python de GitHub, es necesario instalar las librerias PyQt5 y pyttsx3
 
 Links de descarga:
+
 [Descargar paquete ejecutable Windows](https://mi-link1)
 
 [Descargar paquete ejecutable Linux](https://mi-link2)
