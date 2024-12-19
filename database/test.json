@@ -1,0 +1,21 @@
+[
+    {
+        "word": "ff",
+        "translation": [
+            "ff"
+        ],
+        "type": "noun",
+        "points": 0
+    },
+    {
+        "word": "flower",
+        "translation": [
+            "flor"
+        ],
+        "type": "noun",
+        "examples": [
+            "this flower is very beatifull"
+        ],
+        "points": 1
+    }
+]
