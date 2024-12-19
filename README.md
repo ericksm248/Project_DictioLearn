@@ -11,7 +11,7 @@ Links de descarga:
 
 [Descargar paquete ejecutable Linux](https://mi-link2)
 
-Sugerencias? enviame un correo a : vilca.elec@gmail.com
+Sugerencias? enviame un correo a : ericksm.electronica@gmail.com
 
 [![Texto alternativo](https://img.youtube.com/vi/xf6562S__Sg/maxresdefault.jpg)](https://www.youtube.com/watch?v=xf6562S__Sg)
 
