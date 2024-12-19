@@ -1,0 +1,12 @@
+- Primero crea un archivo json nuevo o carga uno, si te proporcionaron un archivo con palabras guardadas.
+- Si haz creado un archivo nuevo, primero debes crear nuevas palabras, luego podras practicar estas palabras en la sección "practice"
+- Cuando creas palabras nuevas, estas pueden tener más de un significado, separa los significados con coma "," esto se reconocerá luego en la sección "practice"
+- Puedes añadir hasta 5 ejemplos por palabra, puedes añadir su traduccion en la misma linea si lo deseas. Por ahora los ejemplos solo se pueden visualizar en este misma sección
+- La tilde y la ñ estan permitidas, puedes usarlas. Evita usar numeros o caracteres especiales
+- Los puntos se inician en cero cuando se crea la palabra nueva y solo se modifica este valor en la sección "practice"
+- La reproduccion de audio solo esta permitido para las palabras en ingles y depende de las voces en tu sistema operativo, luego en la sección "practice" puedes escoger las voces 
+- En la ventana principal del programa esta la visualizacion de todas las palabras y sus puntos, estos datos no se actualizan automaticamente, solo cuando se presiona el boton "UPDATE"
+- Recomiendo guardar el archivo de datos de nuestras palabras en la carpeta "database" para mayor orden
+- La ruta por defecto de nuestro archivo se establece al crear un nuevo archivo o al abrir un nuevo archivo existente
+- Esta ruta se puede visualizar en el menu "Help - File Path"
+- Icono de la aplicacion by Freepik, descargado de "www.flaticon.es/iconos-gratis/diccionario"

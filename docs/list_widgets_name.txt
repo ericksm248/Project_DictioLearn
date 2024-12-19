@@ -1,0 +1,79 @@
+Only widgets used in the application
+
+window 1:
+
+ last_five_words
+ tab_main
+ set_database
+ practice_main
+ update_tab
+ label_tab
+ actionNewFile
+ actionOpenfile
+ actionSavefile
+ actionFilePath
+ actionAbout
+
+
+window 2:
+
+ add_button
+ edit_button
+ delete_button
+ clear_button
+ example_1
+ example_2
+ example_3
+ example_4
+ example_5
+ word
+ translation
+ more_examples
+ less_examples
+ type_box
+ subtype_box
+ simple_p
+ participle_p
+ database_list
+ subtype_label
+ irregular_label
+ simple_label
+ participle_label
+  
+
+window 3:
+
+ mode
+ mode_label
+ my_word
+ try_word
+ stackwid_main
+  random_p
+  search_text
+  search_list
+  High_points
+  Low_points
+  points_H_L
+ stackwid_result_check
+  help_info
+ group_translationN
+  N_means
+ group_conf_speech
+  speed_voice_label
+  select_voice
+  rate_sound
+ group_irregular_verbs
+  bien_participle
+  bien_simple
+  error_simple
+  error_participle
+  check_simple
+  check_participle
+  try_simple_word
+  try_participle_word
+ select_case
+ check_answer
+ conf_speech
+ play_speech
+ reset_points
+ help_p
