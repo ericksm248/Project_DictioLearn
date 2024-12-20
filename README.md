@@ -1,5 +1,5 @@
-  <h1 align="center">DictioLearn</h1>
-  <br>
+<h1 align="center">DictioLearn</h1>
+<br>
 
 Aplicación para aprender y memorizar nuevas palabras en ingles.
 Esta aplicación de escritorio esta disponible como proyecto python en GitHub, paquete ejecutable Windows y tambien Linux.
