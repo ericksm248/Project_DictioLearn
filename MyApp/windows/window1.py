@@ -8,7 +8,8 @@ from utils.helpers import *
 
 my_dictionary = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 len_dictionary = len(my_dictionary)
-data_file = load_data("config.json")
+config_path = os.path.join(os.path.dirname(__file__),'..', '..','config.json')
+data_file = load_data(config_path)
 
 class ventana1(QMainWindow):
     file_addr = ""
@@ -29,16 +30,20 @@ class ventana1(QMainWindow):
         self.load_file_if_upload_path()
 
     def load_file_if_upload_path(self):
-        file_path_data = data_file["default_path"]
-        if file_path_data!="":
-            print("path establecido, cargamos los datos")
-            self.data = load_data(file_path_data)
-            shared_data["path"] = file_path_data
-            self.update_list_word()
-            self.update_tab_main()        
-            self.file_data_json_uploaded()
-        else:
-            print("sin ruta por defecto")
+        try:
+            file_path_data = data_file["default_path"]
+            if file_path_data!="":
+                print("path establecido, cargamos los datos")
+                self.data = load_data(file_path_data)
+                shared_data["path"] = file_path_data
+                self.update_list_word()
+                self.update_tab_main()        
+                self.file_data_json_uploaded()
+            else:
+                print("sin ruta por defecto")
+        except:
+            QMessageBox.warning(self, 'Warning', 'Error uploading file "config.json"', QMessageBox.Ok)
+            sys.exit(1)
 
     def show_info_program(self):
         QMessageBox.information(self, 'Info', f"       <font color='red'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>DictioLearn v1.6</font><br><br>Python version: {sys.version.split()[0]} <br>GUI: PyQt5 and QtDesigner<br>Text-to-speech library: Pyttsx3", QMessageBox.Ok)
@@ -67,7 +72,7 @@ class ventana1(QMainWindow):
             self.update_tab_main()        
             self.file_data_json_uploaded()
             data_file["default_path"] = filePath
-            save_data(data_file,"config.json")
+            save_data(data_file,config_path)
             QMessageBox.information(self, 'Info', 'New file uploaded!', QMessageBox.Ok)
 
 
@@ -91,7 +96,7 @@ class ventana1(QMainWindow):
             self.tab_main.clear()
             self.file_data_json_uploaded()
             data_file["default_path"] = filePath
-            save_data(data_file,"config.json")
+            save_data(data_file,config_path)
             QMessageBox.information(self, 'Info', "New file created successfully.", QMessageBox.Ok)
 
     def update_list_word(self):

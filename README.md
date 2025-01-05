@@ -16,9 +16,9 @@ Sugerencias? enviame un correo a : vilca.elec@gmail.com
 
 Mira el video de la explicación y el funcionamiento en YouTube haciendo click en la imagen!
 
-Pruebas de funcionamiento exitosas en diferentes PC y arquitecturas:
-- Windows 10 Pro (Zen 3,x64)
-- Linux Lubuntu (x86_x64)
+Pruebas de funcionamiento exitosas en diferentes sistemas operativos y arquitecturas:
+- Windows 10 Pro (Zen 3,x86_64)
+- Lubuntu (Regor,x86_x64)
 
 
 **Limitación de Responsabilidad**:
