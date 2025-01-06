@@ -1,5 +1,5 @@
 import sys,os
-from PyQt5.QtWidgets import QMainWindow,QWidget, QVBoxLayout,QScrollArea,QMessageBox,QTextBrowser
+from PyQt5.QtWidgets import QMainWindow,QWidget, QVBoxLayout,QScrollArea,QMessageBox,QTextBrowser,QApplication
 from PyQt5 import uic, QtWidgets
 from windows.window2 import ventana2
 from windows.window3 import ventana3
@@ -27,7 +27,11 @@ class ventana1(QMainWindow):
         self.actionSavefile.triggered.connect(self.saveJSON)
         self.actionFilePath.triggered.connect(self.show_filepaht)
         self.actionAbout.triggered.connect(self.show_info_program)
+        self.actionExit.triggered.connect(self.Exit_program)
         self.load_file_if_upload_path()
+
+    def Exit_program(self):
+        QApplication.quit()
 
     def load_file_if_upload_path(self):
         try:
@@ -43,7 +47,8 @@ class ventana1(QMainWindow):
                 print("sin ruta por defecto")
         except:
             QMessageBox.warning(self, 'Warning', 'Error uploading file "config.json"', QMessageBox.Ok)
-            sys.exit(1)
+            QApplication.quit()
+            sys.exit(1) 
 
     def show_info_program(self):
         QMessageBox.information(self, 'Info', f"       <font color='red'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>DictioLearn v1.6</font><br><br>Python version: {sys.version.split()[0]} <br>GUI: PyQt5 and QtDesigner<br>Text-to-speech library: Pyttsx3", QMessageBox.Ok)
@@ -86,7 +91,7 @@ class ventana1(QMainWindow):
             QMessageBox.information(self, 'Info', "File saved successfully.", QMessageBox.Ok)
 
     def createJSON(self):
-        filePath, _ = QtWidgets.QFileDialog.getSaveFileName(self, 'Save file', '/dictio', "JSON files (*.json)")
+        filePath, _ = QtWidgets.QFileDialog.getSaveFileName(self, 'New file', '/dictio', "JSON files (*.json)")
         if filePath != "":
             shared_data["path"] = filePath
             self.data = []
@@ -145,7 +150,6 @@ class ventana1(QMainWindow):
             QMessageBox.warning(self, 'Warning', 'First, you need to create data.', QMessageBox.Ok)
         else:
             self.set_database.setEnabled(False)
-
             self.practice_database_window.select_case.setCurrentIndex(0)
             self.practice_database_window.my_word.setText("")
             self.practice_database_window.show()
