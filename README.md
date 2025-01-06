@@ -1,16 +1,17 @@
-  <h1 align="center">DictioLearn</h1>
-  <br>
+<h1 align="center">DictioLearn</h1>
+<br>
 
 Aplicación para aprender y memorizar nuevas palabras en ingles.
 Esta aplicación de escritorio esta disponible como proyecto python en GitHub, paquete ejecutable Windows y tambien Linux.
 Si descargas el proyecto python de GitHub, es necesario instalar las librerias PyQt5 y pyttsx3
 
 Links de descarga:
+
 [Descargar paquete ejecutable Windows](https://mi-link1)
 
 [Descargar paquete ejecutable Linux](https://mi-link2)
 
-Sugerencias? enviame un correo a : vilca.elec@gmail.com
+Sugerencias? enviame un correo a : ericksm.electronica@gmail.com
 
 [![Texto alternativo](https://img.youtube.com/vi/xf6562S__Sg/maxresdefault.jpg)](https://www.youtube.com/watch?v=xf6562S__Sg)
 
