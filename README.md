@@ -17,9 +17,10 @@ Sugerencias? enviame un correo a : ericksm.electronica@gmail.com
 
 Mira el video de la explicación y el funcionamiento en YouTube haciendo click en la imagen!
 
-Pruebas de funcionamiento exitosas en diferentes sistemas operativos y arquitecturas:
-- Windows 10 Pro (Zen 3,x86_64)
-- Lubuntu (Regor,x86_x64)
+Pruebas de funcionamiento exitosas en diferentes sistemas operativos (por ahora solo se realizo la prueba en procesadores con arquitectura x86_64):
+- Windows 10 Pro (Zen 3)
+- Lubuntu (Regor)
+- Windows 10 Pro (Sandy Bridge)
 
 
 **Limitación de Responsabilidad**:
