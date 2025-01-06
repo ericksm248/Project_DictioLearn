@@ -7,8 +7,9 @@ helpers:  (6)
  get_color
  load_data
 
-main_window: (12)
+main_window: (13)
  __init__
+ Exit_program
  load_file_if_upload_path
  show_info_program
  file_data_json_uploaded
