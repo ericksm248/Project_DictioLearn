@@ -13,7 +13,7 @@ Links de descarga:
 
 Sugerencias? enviame un correo a : ericksm.electronica@gmail.com
 
-[![Texto alternativo](https://img.youtube.com/vi/xf6562S__Sg/maxresdefault.jpg)](https://www.youtube.com/watch?v=xf6562S__Sg)
+[![Texto alternativo](https://img.youtube.com/vi/b3Jpkv-iKt4/maxresdefault.jpg)](https://www.youtube.com/watch?v=xf6562S__Sg)
 
 Mira el video de la explicación y el funcionamiento en YouTube haciendo click en la imagen!
 
@@ -22,7 +22,7 @@ Pruebas de funcionamiento exitosas en diferentes sistemas operativos (por ahora 
 - Lubuntu (Regor)
 - Windows 10 Pro (Sandy Bridge)
 
-Tarea pendiente: Se utilizó satisfactoriamente el aplicativo en SO Linux Devian en una PC con arquitectura ARM, pero no se genero el ejecutable.
+Tarea pendiente: Se utilizó satisfactoriamente el aplicativo en SO Linux Devian en una PC con arquitectura ARM, pero no se generó el ejecutable.
 
 **Limitación de Responsabilidad**:
 El autor del proyecto no asume ninguna responsabilidad por daños o perjuicios causados por la descarga/instalación del proyecto python, paquete ejecutable Windows o Linux, incluidos, pero no limitados a, daños a su sistema informático, pérdida de datos o cualquier otra pérdida causada por malware u otras amenazas de seguridad.
