@@ -13,7 +13,7 @@ Links de descarga:
 
 Sugerencias? enviame un correo a : ericksm.electronica@gmail.com
 
-[![Texto alternativo](https://img.youtube.com/vi/b3Jpkv-iKt4/maxresdefault.jpg)](https://www.youtube.com/watch?v=xf6562S__Sg)
+[![Texto alternativo](https://img.youtube.com/vi/b3Jpkv-iKt4/maxresdefault.jpg)](https://www.youtube.com/watch?v=b3Jpkv-iKt4)
 
 Mira el video de la explicación y el funcionamiento en YouTube haciendo click en la imagen!
 
