@@ -22,6 +22,7 @@ Pruebas de funcionamiento exitosas en diferentes sistemas operativos (por ahora 
 - Lubuntu (Regor)
 - Windows 10 Pro (Sandy Bridge)
 
+Tarea pendiente: Se utilizó satisfactoriamente el aplicativo en SO Linux Devian en una PC con arquitectura ARM, pero no se genero el ejecutable.
 
 **Limitación de Responsabilidad**:
 El autor del proyecto no asume ninguna responsabilidad por daños o perjuicios causados por la descarga/instalación del proyecto python, paquete ejecutable Windows o Linux, incluidos, pero no limitados a, daños a su sistema informático, pérdida de datos o cualquier otra pérdida causada por malware u otras amenazas de seguridad.
